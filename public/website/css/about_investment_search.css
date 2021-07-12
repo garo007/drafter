@@ -1,0 +1,773 @@
+.about_investment_search .investment_search_info1,
+.about_investment_search .investment_search_info2,
+.about_investment_search .search_title,
+.second_nav_link {
+    font-family: Inter, sans-serif;
+}
+.header_second_wrapper {
+    padding: 16px 0;
+    background: #000;
+    opacity: 0.7;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.header_second_wrapper,
+.second_nav_ul_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.second_nav_ul_list {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 400px;
+    max-width: 500px;
+    width: 100%;
+}
+.second_nav_link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #9b8e6c;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 16px;
+}
+.second_nav_link:hover {
+    color: #e5d6a0;
+    border-bottom: 1px solid #e5d6a0;
+}
+.about_investment_search {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(13, 21, 30, 0), #0d151e), url(../images/log_in_back.png);
+    background-size: cover;
+    position: relative;
+}
+.about_investment_search .about_investment_search_wrapper {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.about_investment_search .description_wrapper,
+.about_investment_search .investment_search_items_wrapper {
+    margin-bottom: 40px;
+}
+.about_investment_search .about_project_progress_items_wrapper {
+    max-width: 1014px;
+    width: 100%;
+    
+}
+.about_investment_search .investment_search_img {
+    margin-right: 25px;
+}
+.about_investment_search .info_item,
+.about_investment_search .info_second_item {
+    max-width: 1036px;
+    width: 100%;
+}
+.about_investment_search .hidden_star_wrapper {
+    display: none;
+}
+.about_investment_search .search_title_stars_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.about_investment_search .search_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #f0f0f0;
+}
+.about_investment_search .investment_search_info1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #a5aab7;
+    margin-bottom: 20px;
+}
+.about_investment_search .investment_search_info2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 18px;
+    color: #e5d6a0;
+    margin-bottom: 30px;
+}
+.about_investment_search .investment_search_info3,
+.about_investment_search .investment_search_info3 span {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+.about_investment_search .investment_search_info_svg_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.about_investment_search .investment_search_info3 {
+    font-weight: 500;
+    color: #fff;
+}
+.about_investment_search .investment_search_info3 span {
+    font-weight: 700;
+    color: #a5aab7;
+    margin-right: 11px;
+}
+.about_investment_search .investment_search_info4_svg_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.about_investment_search .investment_search_stars_items_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1036px;
+    width: 100%;
+}
+.about_investment_search .about_project_progress_item,
+.about_investment_search .show_more {
+    display: none;
+}
+.about_investment_search .description_info {
+    margin-bottom: 16px;
+}
+.about_investment_search .investment_search_info4 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    color: #e5d6a0;
+    margin-left: 14px;
+}
+.about_investment_search .investment_search_loading_wrapper {
+    height: 16px;
+    width: 100%;
+    border: 1px solid #e5d6a0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.about_investment_search .about_project_progress_item.open {
+    display: block !important;
+}
+.about_investment_search .about_project_progress_item_titles_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 40px;
+}
+.about_investment_search .about_project_progress_item_main_title {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #9b8e6c;
+    cursor: pointer;
+    padding-bottom: 16px;
+    max-width: 502px;
+    width: 100%;
+}
+.about_investment_search .about_project_progress_item_main_title.active,
+.about_investment_search .about_project_progress_item_main_title:hover {
+    color: #e5d6a0;
+    border-bottom: 2px solid #e5d6a0;
+    padding-bottom: 14px;
+}
+.about_investment_search .about_project_progress_item_title,
+.about_investment_search .description_title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+.about_investment_search .about_project_progress_item_title {
+    margin-bottom: 16px;
+}
+.about_investment_search #first_swiper_container,
+.about_investment_search #four_swiper_container,
+.about_investment_search #third_swiper_container {
+    margin-bottom: 25px;
+}
+.about_investment_search .description_title {
+    margin-bottom: 16px;
+}
+.about_investment_search .description_info {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f0f0f0;
+}
+.about_investment_search .form_btn,
+.about_investment_search .read_more {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background: 0 0;
+    line-height: 24px;
+}
+.about_investment_search .form_btns_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.about_investment_search .form_btn {
+    width: 186px;
+    height: 56px;
+    padding: 16px 0;
+    border: 2px solid #e5d6a0;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0;
+    font-style: normal;
+    color: #e5d6a0;
+}
+.about_investment_search .form_btn:hover {
+    background: #e5d6a0;
+    color: #1f262e;
+}
+.about_investment_search .special_btn:hover svg path {
+    fill: #1f262e;
+}
+.about_investment_search .form_first_btn {
+    margin-right: 25px;
+}
+.about_investment_search .read_more {
+    color: #e5d6a0;
+    font-style: normal;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+}
+.about_investment_search .about_investment_main_link,
+.about_investment_search .second_project_item_btn {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    outline: 0;
+}
+.about_investment_search .show_more.open {
+    display: block !important;
+}
+.about_investment_search .swiper-button-next:after,
+.about_investment_search .swiper-button-prev:after {
+    display: none;
+}
+.about_investment_search .swiper-button-prev {
+    background-image: url(../images/swiper_arrow1.svg);
+    background-position: 50%;
+    width: 60px;
+    height: 60px;
+    left: -8%;
+    background-repeat: no-repeat;
+}
+.about_investment_search .swiper-button-next {
+    background-image: url(../images/swiper_arrow2.svg);
+    background-position: 50%;
+    width: 60px;
+    height: 60px;
+    right: -5%;
+    background-repeat: no-repeat;
+}
+/*.about_investment_search .special_slider_third_wrapper .swiper-button-next,*/
+/*.about_investment_search .special_slider_third_wrapper .swiper-button-prev {*/
+/*    top: 1250px !important;*/
+/*}*/
+.special_slider_third_wrapper{
+    position: relative;
+}
+/*.about_investment_search .swiper_btns_special_wrapper .swiper-button-next,*/
+/*.about_investment_search .swiper_btns_special_wrapper .swiper-button-prev {*/
+/*    top: 568px !important;*/
+/*}*/
+/*.about_investment_search .swiper_slider_special_second .swiper-button-next,*/
+/*.about_investment_search .swiper_slider_special_second .swiper-button-prev {*/
+/*    top: 658px !important;*/
+/*}*/
+.swiper_slider_special_second{
+    position: relative;
+}
+.about_investment_search .special_second_info_item {
+    width: 100%;
+}
+.about_investment_search #second_swiper_container {
+    margin-bottom: 16px;
+}
+.about_investment_search #five_swiper_container,
+.about_investment_search #six_swiper_container,
+.about_investment_search .first_project_swiper {
+    margin-bottom: 25px;
+}
+.about_investment_search .second_project_swiper {
+    margin-bottom: 40px;
+}
+.about_investment_search .second_project_item_btn_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.about_investment_search .second_project_item_btn {
+    border: 1px solid #d2be8b;
+    background: 0 0;
+    width: 333px;
+    height: 56px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px;
+    line-height: 24px;
+    color: #d2be8b;
+}
+.about_investment_search .second_project_item_btn svg {
+    margin-right: 54px;
+}
+.about_investment_search .second_project_item_btn:hover {
+    background: #e5d6a0;
+    color: #1f262e;
+}
+.about_investment_search #third_swiper_container .swiper-button-next,
+.about_investment_search #third_swiper_container .swiper-button-prev {
+    top: 200px !important;
+}
+.about_investment_search .about_investment_main_link {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    color: #9b8e6c;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.about_investment_search .about_investment_main_link svg {
+    margin-right: 16px;
+}
+.about_investment_search .special_second_info_item {
+    margin-bottom: 60px !important;
+}
+@media (max-width: 1290px) {
+    .about_investment_search_wrapper {
+        width: 93% !important;
+    }
+}
+@media (min-width: 1034px) and (max-width: 1290px) {
+    .slider_slide_img {
+        width: 470px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 940px) and (max-width: 1033px) {
+    .slider_slide_img {
+        width: 430px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 871px) and (max-width: 939px) {
+    .slider_slide_img {
+        width: 400px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 771px) and (max-width: 870px) {
+    .slider_slide_img {
+        width: 350px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 701px) and (max-width: 770px) {
+    .slider_slide_img {
+        width: 213px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+    .slider_slide_img {
+        width: 180px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 544px) and (max-width: 599px) {
+    .slider_slide_img {
+        width: 250px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 438px) and (max-width: 543px) {
+    .slider_slide_img {
+        width: 200px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 426px) and (max-width: 437px) {
+    .slider_slide_img {
+        width: 180px !important;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 550px) {
+    .about_project_progress_item_title,
+    .description_title,
+    .search_title {
+        font-weight: 600;
+        font-size: 22px !important;
+    }
+    .investment_search_info2 {
+        font-size: 30px !important;
+    }
+    .about_project_progress_item_main_title {
+        font-size: 22px !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 480px) {
+    .about_project_progress_item_title,
+    .description_title,
+    .search_title {
+        font-weight: 600;
+        font-size: 20px !important;
+    }
+    .investment_search_info2 {
+        font-size: 25px !important;
+    }
+    .about_project_progress_item_main_title {
+        font-size: 20px !important;
+        padding-bottom: 8px !important;
+    }
+    .about_project_progress_item_main_title:hover {
+        padding-bottom: 8px !important;
+    }
+}
+@media (max-width: 425px) {
+    .slider_slide_img {
+       width: 300px !important;
+        margin: 0 auto;
+    }
+    #first_swiper_container,
+    .slider_slide_img img {
+        width: 100%;
+    }
+    .about_project_progress_item_title,
+    .description_title,
+    .search_title {
+        font-weight: 600;
+        font-size: 18px !important;
+    }
+    .description_info {
+        font-size: 14px !important;
+    }
+    .dots,
+    .read_more {
+        display: none !important;
+    }
+    .investment_search_info2 {
+        font-size: 22px !important;
+    }
+    .about_project_progress_item_main_title {
+        font-size: 16px !important;
+        padding-bottom: 5px !important;
+    }
+    .about_project_progress_item_main_title:hover {
+        padding-bottom: 5px !important;
+    }
+}
+@media (max-width: 450px) {
+    .form_btns_wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+    .form_first_btn {
+        margin-right: unset !important;
+        margin-bottom: 24px;
+    }
+}
+@media (min-width: 351px) and (max-width: 450px) {
+    .form_btn {
+        width: 312px !important;
+    }
+}
+@media (min-width: 381px) and (max-width: 450px) {
+    .special_form_btns_wrapper {
+        -ms-flex-direction: unset !important;
+        flex-direction: unset !important;
+    }
+}
+@media (min-width: 351px) and (max-width: 380px) {
+    .special_btn {
+        width: 313px !important;
+        margin-right: unset !important;
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 350px) {
+    .form_btn,
+    .special_btn {
+        width: 280px !important;
+    }
+    .special_btn {
+        margin-right: unset !important;
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 580px) {
+    .first_star_wrapper {
+        display: none !important;
+    }
+    .hidden_star_wrapper {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+.hidden_star_wrapper {
+    margin-bottom: 40px;
+}
+@media (max-width: 624px) {
+    .investment_search_info3 span {
+        display: none !important;
+    }
+}
+@media (min-width: 381px) and (max-width: 524px) {
+    .investment_search_img img {
+        width: 150px;
+    }
+}
+@media (max-width: 490px) {
+    .investment_search_info_svg_wrapper {
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .investment_search_info3 {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 380px) {
+    .investment_search_img img {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .investment_search_img {
+        margin-right: unset !important;
+        margin-bottom: 20px;
+    }
+    .investment_search_stars_items_wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 381px) and (max-width: 494px) {
+    .special_btn svg {
+        margin-right: 12px !important;
+    }
+    .special_btn {
+        width: 170px !important;
+        padding-left: 14px;
+        padding-right: 10px;
+        margin-right: 25px;
+    }
+}
+@media (min-width: 495px) and (max-width: 1920px) {
+    .special_btn {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 214px !important;
+        margin-right: 25px;
+        padding-left: 14px !important;
+    }
+    .special_btn svg {
+        margin-right: 40px;
+    }
+}
+.header_second_nav_list {
+    max-width: 500px;
+    width: 100%;
+}
+@media (max-width: 535px) {
+    .header_second_nav_list {
+        max-width: 500px;
+        width: 93% !important;
+    }
+}
+@media (min-width: 1185px) and (max-width: 1336px) {
+    .second_nav_ul_list {
+        margin-left: 323px !important;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1184px) {
+    .second_nav_ul_list {
+        margin-left: 240px !important;
+    }
+}
+@media (max-width: 1000px) {
+    .second_nav_ul_list {
+        margin-left: unset !important;
+    }
+}
+
+
+
+
+@media (min-width:426px) and (max-width:768px){
+    .about_investment_search{
+
+        background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/log_in_second_img.png")!important;
+    }
+}
+
+/*@media(max-width:425px){*/
+/* */
+/*    .about_investment_search{*/
+/*        background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/mobile_confirm.png")!important;*/
+/*        */
+/*       */
+/*    }*/
+/*}*/
+
+.swiper_btn_slides_wrapper{
+    position: relative;
+}
+.second_project_swiper, .first_project_swiper{
+    position: relative;
+}
+
+
+
+@media (min-width: 1157px) and (max-width: 1332px){
+    .swiper-button-prev{
+        left: -7%!important;
+    }
+
+     .swiper-button-next{
+        right: -4%!important;
+    }
+}
+
+
+
+@media (min-width: 1096px) and  (max-width: 1156px){
+    .swiper-button-prev{
+        left: -5%!important;
+    }
+
+     .swiper-button-next{
+        right: -1%!important;
+    }
+}
+
+
+@media  (max-width: 1095px) {
+    .swiper-button-prev {
+        display: none!important;
+    }
+
+    .swiper-button-next {
+        display: none!important;
+    }
+}
+
+
+
+.svg_wrapper {
+    margin-right: 8px;
+}
+
+
+
+@media (min-width:1261px) and (max-width:3000px){
+    .about_project_progress_items_wrapper{
+         margin: 0 5px 0 auto;
+    }
+   
+}
+
+@media (min-width:1271px) and (max-width:1290px){
+    .about_project_progress_items_wrapper {
+        max-width: 981px!important;
+    }
+}
+
+
+
+
+@media (min-width:1261px) and  (max-width:1270px){
+    .about_project_progress_items_wrapper {
+        max-width: 975px!important;
+    }
+}
+
+
+
+@media  (max-width:1260px){
+    .about_project_progress_items_wrapper {
+        max-width: 1036px!important;
+        margin: 0 auto!important;
+    }
+}

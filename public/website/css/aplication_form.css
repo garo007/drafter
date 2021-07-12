@@ -1,0 +1,484 @@
+.aplication_form .aplication_form_title, .aplication_form .back_link {
+    font-family: Inter, sans-serif;
+    font-style: normal
+}
+
+.aplication_form {
+    width: 100%;
+    background-image: url(../images/bck.svg);
+    background-position: 50%;
+    padding-top: 25px;
+    padding-bottom: 54px
+}
+
+.aplication_form .aplication_form_wrapper {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.aplication_form .back_link {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -.022em;
+    color: #e5d6a0;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 48px
+}
+
+.aplication_form .back_link svg {
+    margin-right: 7px
+}
+
+.aplication_form .aplication_form_title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 40px
+}
+
+.aplication_form .aplication_form_items_title, .aplication_form .mobile_aplication_form_items_title {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer
+}
+
+.aplication_form .aplication_form_items_titles_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.aplication_form .aplication_form_items_title {
+    color: #d2be8b;
+    padding-bottom: 15px
+}
+
+.aplication_form .aplication_form_items_title:hover {
+    border-bottom: 2px solid #e5d6a0;
+    color: #e5d6a0;
+    padding-bottom: 13px
+}
+
+.aplication_form .mobile_aplication_form_items_title {
+    color: #d2be8b;
+    margin-bottom: 20px;
+    margin-left: 95px
+}
+
+.aplication_form .aplication_form_items_title.active {
+    border-bottom: 2px solid #e5d6a0;
+    color: #e5d6a0
+}
+
+.aplication_form .aplication_form_input, .aplication_form .aplication_form_input_title {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    letter-spacing: -.006em;
+    color: #9b8e6c;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px
+}
+
+.aplication_form .aplication_form_item_first_child, .aplication_form .aplication_form_item_second_child {
+    max-width: 750px;
+    width: 100%;
+    margin-left: 80px
+}
+
+.aplication_form .aplication_form_inputs_field {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px
+}
+/*.personal_area .personal_area_check_input.active .check_label:after {*/
+/*    content: "";*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*    background: #e5d6a0;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex-pack: center;*/
+/*    justify-content: center;*/
+/*    -ms-flex-align: center;*/
+/*    align-items: center;*/
+/*    position: absolute;*/
+/*    transform: translate(35%, 34%);*/
+/*}*/
+
+.personal_area_check_input.active .check_label:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #e5d6a0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(35%, 34%);
+}
+
+
+.check_label{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e5d6a0;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.form_inp.active .check_label1:after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #e5d6a0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(35%, 34%);
+}
+.form_inp1.active .check_label:after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #e5d6a0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(35%, 34%);
+}
+
+span.check_text1{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    letter-spacing: -.006em;
+    color: #9b8e6c;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+
+}
+.form_inp{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    letter-spacing: -.006em;
+    color: #9b8e6c;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    justify-content: flex-end!important;
+}
+.form_inp1{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    letter-spacing: -.006em;
+    color: #9b8e6c;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    justify-content: flex-end!important;
+}
+.check_label1{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e5d6a0;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    right: 4px;
+}
+.check_label {
+    top: 1px!important;
+    right: 4px;
+}
+
+.aplication_form .aplication_form_input_title {
+    width: 50%;
+    margin-right: 24px;
+    text-align: end
+}
+
+.aplication_form .aplication_form_input {
+    max-width: 398px;
+    width: 100%;
+    height: 48px;
+    background: rgba(165, 170, 183, .1);
+    border: 1px solid #9b8e6c;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0;
+    padding: 20px
+}
+
+.aplication_form .aplication_form_btn, .aplication_form .aplication_form_inputs_answer_btn, .aplication_form .aplication_form_save_btn {
+    background: #d2be8b;
+    max-width: 398px;
+    width: 100%;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    height: 50px;
+    color: #1f2326;
+    border: none
+}
+
+.aplication_form .aplication_form_btn_wrapper, .aplication_form .aplication_form_inputs_answer_btn_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: end
+}
+
+.aplication_form .write_us_input.file_label {
+    border: 1px solid #d2be8b;
+    box-sizing: border-box;
+    max-width: 398px;
+    padding: 12px;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.aplication_form .file_span {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d2be8b;
+    margin-left: 78px
+}
+
+.aplication_form .aplication_form_textarea_field {
+    background: rgba(165, 170, 183, .1);
+    border: 1px solid #9b8e6c;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 398px;
+    height: 116px;
+    resize: none;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.006em;
+    color: #9b8e6c;
+    cursor: pointer;
+    outline: 0;
+    padding: 20px
+}
+
+.aplication_form .aplication_form_input_answer_info, .aplication_form .aplication_form_input_answer_title {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -.006em;
+    width: 50%
+}
+
+.aplication_form .aplication_form_input_answer_title {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: end;
+    color: #9b8e6c;
+    margin-right: 24px
+}
+
+.aplication_form .aplication_form_inputs_answers {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.aplication_form .aplication_form_inputs_answers:not(:last-child) {
+    margin-bottom: 40px
+}
+
+.aplication_form .aplication_form_input_answer_info {
+    font-weight: 700;
+    font-size: 18px;
+    color: #f0f0f0
+}
+
+.aplication_form .aplication_form_item_second_child {
+    display: none;
+}
+
+@media (max-width: 1270px) {
+    .aplication_form_wrapper {
+        width: 93% !important
+    }
+}
+
+@media (max-width: 1196px) {
+    .aplication_form_items_title {
+        font-weight: 700;
+        font-size: 16px !important
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+    .aplication_form_items_title {
+        width: 35%;
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width: 1080px) {
+    .aplication_form_item_first_child, .aplication_form_item_second_child {
+        margin: 0 auto !important
+    }
+}
+
+@media (max-width: 900px) {
+    .aplication_form_item_first_child, .aplication_form_item_second_child {
+        margin: 0 auto !important;
+        width: 93% !important
+    }
+}
+
+.mobile_aplication_form_items_wrapper {
+    display: none
+}
+
+@media (max-width: 768px) {
+    .mobile_aplication_form_items_wrapper {
+        display: block !important
+    }
+
+    /*.aplication_form_items_wrapper {*/
+    /*    display: none !important*/
+    /*}*/
+
+    .aplication_form_items_title:hover {
+        border-bottom: unset !important
+    }
+}
+
+@media (min-width: 500px) {
+    .aplication_form_item {
+        display: none
+    }
+    .mobile_aplication_form_item{
+        display: none
+    }
+
+    .aplication_form_item.open {
+        display: block !important
+    }
+}
+
+@media (max-width: 768px) {
+    /*.aplication_form_item {*/
+    /*    display: block !important*/
+    /*}*/
+
+    .aplication_form_item:not(:last-child) {
+        margin-bottom: 40px
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .aplication_form_inputs_field {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    .aplication_form_input_title {
+        width: 100% !important;
+        margin-right: unset !important;
+        text-align: left !important;
+        margin-bottom: 10px
+    }
+
+    .mobile_aplication_form_items_title {
+        margin-left: 18px !important;
+        text-align: left !important
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+    .aplication_form_title {
+        font-size: 30px !important
+    }
+}
+
+@media (min-width: 421px) and (max-width: 500px) {
+    .aplication_form_title {
+        font-size: 28px !important
+    }
+}
+
+@media (max-width: 420px) {
+    .file_span {
+        color: #d2be8b;
+        margin-left: 20px !important
+    }
+
+    .aplication_form_title {
+        font-size: 24px !important;
+        margin-bottom: 20px !important
+    }
+}
+.form_select{
+max-width: 398px;
+width: 100%;
+height: 48px;
+background: rgba(165, 170, 183, .1);
+border: 1px solid #9b8e6c;
+box-sizing: border-box;
+cursor: pointer;
+outline: 0;
+padding: 0 18px;
+color: #9b8e6c;
+font-size: inherit;
+}

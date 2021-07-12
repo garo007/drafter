@@ -1,0 +1,234 @@
+.confirmation .confirm_btn,
+.confirmation .confirm_code_input,
+.confirmation .confirmation_code_change_number,
+.confirmation .confirmation_code_message,
+.confirmation .confirmation_title {
+    font-family: Inter, sans-serif;
+}
+.to_login_btn{
+    padding: 0 50px;
+}
+.confirmation_email_message{
+    color:#FFFFFF;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.confirmation {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(13, 21, 30, 0), #0d151e), url(../images/log_in_back.png);
+    background-size: cover;
+    min-height: 968px;
+    padding-top: 327px;
+}
+.confirmation .confirmation_wrapper {
+    max-width: 616px;
+    width: 100%;
+    margin: 0 auto;
+}
+.confirmation .confirmation_form_wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.confirmation .confirmation_code_inputs_btn_wrapper,
+.confirmation .confirmation_code_number_wrapper {
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+}
+.confirmation .confirmation_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 81px;
+}
+.confirmation .confirmation_code_number_wrapper {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.confirmation .confirmation_code_message {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-right: 16px;
+}
+.confirmation .confirm_btn,
+.confirmation .confirm_code_input,
+.confirmation .confirmation_code_change_number {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.confirmation .confirmation_code_change_number {
+    background: hsla(47, 57%, 76%, 0.02);
+    border: 1px solid #d2be8b;
+    box-sizing: border-box;
+    padding: 8px 34px;
+    outline: 0;
+    font-size: 14px;
+    color: #d2be8b;
+}
+.confirmation_code_change_number:hover{
+    color: #1F2326;
+    background: #E5D6A0;
+}
+.confirmation .confirmation_code_inputs_btn_wrapper {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.confirmation .confirm_btn {
+    width: 272px;
+    height: 56px;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+    background: rgba(229, 214, 160, 0.02);
+    border: 1px solid #D2BE8B;
+    color: #D2BE8B;
+}
+.confirm_btn:hover{
+    color: #1F2326;
+    background: #E5D6A0;
+}
+.confirmation .confirmation_code_input:not(:last-child) {
+    margin-right: 16px;
+}
+.confirmation .confirm_code_input {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #e5d6a0;
+    box-sizing: border-box;
+    background: 0 0;
+    font-size: 24px;
+    color: #e5d6a0;
+}
+.confirmation .confirm_code_input:active,
+.confirmation .confirm_code_input:focus {
+    outline: 0;
+}
+.confirmation .error {
+    border: 1px solid #ff543e;
+}
+.confirmation .confirm_inputs {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-right: 16px;
+}
+@media (max-width: 768px) {
+    .confirm_inputs,
+    .confirmation_code_message {
+        margin-right: unset !important;
+    }
+    .confirmation_code_number_wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        margin-bottom: 56px !important;
+    }
+    .confirmation_code_message {
+        margin-bottom: 24px;
+    }
+    .confirmation_code_inputs_btn_wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .confirm_btn {
+        width: 312px !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .confirm_inputs {
+        margin-bottom: 272px;
+    }
+    .confirmation {
+        min-height: unset !important;
+        padding-bottom: 80px;
+        background-image: linear-gradient(180deg, rgba(13, 21, 30, 0), #0d151e), url(../images/log_in_second_img.png) !important;
+    }
+}
+@media (min-width: 651px) and (max-width: 768px) {
+    .confirmation {
+        padding-top: 255px !important;
+    }
+}
+@media (max-width: 425px) {
+    .confirm_inputs {
+        margin-bottom: 127px !important;
+    }
+    .confirmation {
+        padding-top: 72px !important;
+        background-image: linear-gradient(180deg, rgba(13, 21, 30, 0), #0d151e), url(../images/mobile_confirm.png) !important;
+        min-height: unset !important;
+        padding-bottom: 41px;
+    }
+}
+@media (min-width: 501px) and (max-width: 650px) {
+    .confirmation_title {
+        font-size: 32px !important;
+    }
+    .confirmation {
+        padding-top: 200px !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 500px) {
+    .confirmation_title {
+        font-size: 28px !important;
+        margin-bottom: 70px !important;
+    }
+    .confirmation {
+        padding-top: 140px !important;
+    }
+}
+@media (min-width: 371px) and (max-width: 425px) {
+    .confirmation_title {
+        font-size: 26px !important;
+        margin-bottom: 60px !important;
+    }
+    .confirmation_title span {
+        display: none !important;
+    }
+}
+@media (max-width: 370px) {
+    .confirmation_title {
+        font-size: 24px !important;
+        margin-bottom: 60px !important;
+    }
+    .confirmation_title span {
+        display: none !important;
+    }
+}
+@media (max-width: 650px) {
+    .confirmation_wrapper {
+        width: 93% !important;
+    }
+}

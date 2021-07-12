@@ -1,0 +1,8 @@
+.env
+**/node_modules
+**/vendor
+
+**/public/storage
+.idea
+public/84287ebbcaa7b06833a27de468266a30
+.env
